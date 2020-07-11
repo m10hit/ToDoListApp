@@ -18,6 +18,12 @@ app.use(express.static("public"));
 
 mongoose.connect("mongodb+srv://admin-mohit:test123@cluster0-pur6v.mongodb.net/todolistDB", {useNewUrlParser:true, useUnifiedTopology: true });
 
+process.on('unhandledRejection', (reason, promise) => {
+  console.log('Unhandled Rejection at:', reason.stack || reason)
+  // Recommended: send the information to sentry.io
+  // or whatever crash reporting service you use
+})
+
 const itemsSchema = {
   name: String
 };
