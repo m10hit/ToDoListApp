@@ -27,8 +27,9 @@ Used HTML5, CSS3, Bootstrap, Node.js, Express.js, MongoDB (mongoose), EJS templa
 
 ![](images/list-added.png)
 
+![](images/strikethrough.png)
+
 ![](images/item-deleted.png)
-*An example where item gets deleted automatically when a checkbox is checked. Here Play is deleted*
 
 ![](images/work-list.png)
 *An example to open a new To-Do List to add items based on work*
