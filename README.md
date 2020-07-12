@@ -15,3 +15,20 @@ Used HTML5, CSS3, Bootstrap, Node.js, Express.js, MongoDB (mongoose), EJS templa
 * To add an item, the user can click on the placeholder **New Item** and type the item which needs to be added
 * After typing it, the user can click on **'+'** button to add it in the list
 * When the user is done with the work mentioned in the list or if the user want to delete the item from the list, they can click on the **checkbox** beside that item and the item gets dissappeared automatically
+
+# Important Note
+* The To-Do list app have a default page with **Today** as the title. If the user navigate to **/work** list, the item added in work list won't appear in any other list, say **/shopping** list.
+* The item added in a particular list will be persisted when the user navigates to different lists.
+
+# Screenshots
+![](images/default.png)
+
+![](images/type-list.png)
+
+![](images/list-added.png)
+
+![](images/item-deleted.png)
+
+![](images/work-list.png)
+*An example to open a new To-Do List to add items based on work*
+
