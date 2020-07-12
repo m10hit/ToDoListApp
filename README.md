@@ -14,7 +14,7 @@ Used HTML5, CSS3, Bootstrap, Node.js, Express.js, MongoDB (mongoose), EJS templa
 * The user can change the heading according to the requirement. **For Example:-** If the user want to use a list for work,  **/work** can be added as a suffix in the URL
 * To add an item, the user can click on the placeholder **New Item** and type the item which needs to be added
 * After typing it, the user can click on **'+'** button to add it in the list
-* When the user is done with the work mentioned in the list or if the user want to delete the item from the list, they can click on the **checkbox** beside that item and the item gets dissappeared automatically
+* When the user is done with the work mentioned in the list or if the user want to delete the item from the list, they can click on the **checkbox** beside that item and the item gets a strikethrough and gets deleted automatically
 
 # Important Note
 * The To-Do list app have a default page with **Today** as the title. If the user navigate to **/work** list, the item added in work list won't appear in any other list, say **/shopping** list.
@@ -28,6 +28,7 @@ Used HTML5, CSS3, Bootstrap, Node.js, Express.js, MongoDB (mongoose), EJS templa
 ![](images/list-added.png)
 
 ![](images/item-deleted.png)
+*An example where item gets deleted automatically when a checkbox is checked. Here Play is deleted*
 
 ![](images/work-list.png)
 *An example to open a new To-Do List to add items based on work*
